@@ -1,0 +1,99 @@
+:root{
+    --grey:#2A324B;
+    --white: #fff; 
+    --blue:#58699D;
+    --lightblue:#E1E5EE;
+
+
+    --font: url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    --rootsize: 14px;
+    --maxsize: 700px;
+    
+/*gjorde mye av det samme her som på legodudes, men endra på en mye*/
+}
+
+#box {
+    width: 100%;
+    max-width: var(--maxsize);
+    margin: 0 auto;
+    min-height: 370px;
+    background-color: var(--white);
+   margin-top: 100px;
+}
+body{
+
+background-color: var(--lightblue);
+font-family: var(--font);
+font-size: var(--rootsize);
+margin-top: 0;
+padding-top: 0;
+}
+
+nav{
+    display: flex;
+    background-color: var(--lightblue);
+    height: 79px;
+}
+
+nav ul{
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 0.1rem;
+    justify-content: space-between;
+    text-align: center;
+    width: 700px;
+}
+#h{
+    color: var(--grey);
+    background-color: var(--white);
+    
+}
+#r{
+    color: var(--grey);
+    background-color: var(--white);
+}
+
+#j{
+    color: var(--grey);
+    background-color: var(--white);
+}
+#s{
+    color: var(--grey);
+    background-color: var(--white);
+}
+
+#c{
+    color: var(--grey);
+    background-color: var(--white);
+}
+
+nav a{
+    display: inline-block;
+    padding: 1.5rem;
+    color: var(--white);
+    text-decoration: none;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    background-color: var(--grey);
+    
+}
+main{
+    justify-content: space-around;
+    gap: 2rem;
+    padding: 3rem;
+}
+main h2{
+    width: 100%;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 0;
+    }
+   
+    main p{
+        padding-right: 100px;
+    }
+
+  
+
+    
